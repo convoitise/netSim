@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Node Properties -->
+<simulator>
+    <!-- SET Number Of Nodes -->
+    <nodes>4</nodes> 
+    <!-- SET click to next round (MANUAL ROUNDS MODE) -->
+    <manual>TRUE</manual>
+    <!-- ELSE SET TRUE AND frequency rate for rounds (AUTO ROUNDS MODE) -->
+    <auto frequency="30">FALSE</auto>
+    <!-- ELSE SET TRUE AND round # for pre-defined emulation (TIMED MODE) -->
+    <timed rounds="1000">FALSE</timed>
+	<!-- SET TRUE For extended Logging (Logs Messages/Round/Node) -->
+	<!-- NOT recommended - except for Tree Protocol -->
+	<detailed>FALSE</detailed>
+</simulator>
